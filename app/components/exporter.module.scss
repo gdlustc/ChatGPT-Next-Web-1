@@ -133,15 +133,19 @@
         left: 0px;
         height: 50%;
         transform: scale(1.5);
+        opacity: 0.1;
       }
 
       .main-title {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bolder;
       }
 
       .sub-title {
         font-size: 12px;
+        position: relative;
+        top: 0px;
+        left: 20px;
       }
 
       .icons {
