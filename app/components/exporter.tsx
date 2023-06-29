@@ -437,10 +437,8 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
-            <div className={styles["main-title"]}>GPT.TT</div>
-            <div className={styles["sub-title"]}>
-              www.gpt.tt
-            </div>
+            <div className={styles["main-title"]}>gpt.tt</div>
+           
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
               <span className={styles["icon-space"]}>&</span>
