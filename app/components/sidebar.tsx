@@ -119,17 +119,17 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
-        /*<div className={styles["sidebar-title"]} data-tauri-drag-region>gpt.tt</div>*/
+        {/*<div className={styles["sidebar-title"]} data-tauri-drag-region>gpt.tt</div>*/}
         <div>
           <NextImage
-            src={Logo.src}
+            src={Logo}
             alt="gpt.tt"
             width={150}
             height={54}
           />
         </div>
 
-        /*<div className={styles["sidebar-logo"] + " no-dark"}><ChatGptIcon /></div>*/
+        {/*<div className={styles["sidebar-logo"] + " no-dark"}><ChatGptIcon /></div>*/}
       </div>
 
       <div className={styles["sidebar-header-bar"]}>
