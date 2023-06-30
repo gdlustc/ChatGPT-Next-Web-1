@@ -18,6 +18,8 @@ import { Avatar } from "./emoji";
 import dynamic from "next/dynamic";
 import NextImage from "next/image";
 
+import Logo from "../icons/logo.png";
+
 import { toBlob, toJpeg, toPng } from "html-to-image";
 import { DEFAULT_MASK_AVATAR } from "../store/mask";
 import { api } from "../client/api";
@@ -437,7 +439,20 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
-            <div className={styles["main-title"]}>gpt.tt</div>
+            {/*<div className={styles["main-title"]}>gpt.tt</div>*/}
+            
+            <div>
+              <NextImage
+                src={Logo}
+                alt="gpt.tt"
+                style={{
+                  width: '100px',
+                  height: 'auto', 
+                  marginLeft: '0px',
+                  marginTop: '0px',
+                }}
+              />
+            </div>
            
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
