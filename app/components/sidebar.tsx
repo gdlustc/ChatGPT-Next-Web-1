@@ -11,6 +11,8 @@ import CloseIcon from "../icons/close.svg";
 import MaskIcon from "../icons/mask.svg";
 import PluginIcon from "../icons/plugin.svg";
 
+import Logo from "../icons/logo.png";
+
 import Locale from "../locales";
 
 import { useAppConfig, useChatStore } from "../store";
@@ -116,8 +118,14 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
-        <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          gpt.tt
+        /*<div className={styles["sidebar-title"]} data-tauri-drag-region>gpt.tt</div>*/
+        <div>
+          <NextImage
+            src={logo.src}
+            alt="gpt.tt"
+            width={150}
+            height={54}
+          />
         </div>
 
         <div className={styles["sidebar-logo"] + " no-dark"}>
