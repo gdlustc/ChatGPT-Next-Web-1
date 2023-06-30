@@ -36,12 +36,12 @@
 
   /* color */
   --white: #181c1f;
-  --black: rgb(150, 150, 150);
-  --gray: rgb(21, 21, 21);
+  --black: #ffffff;
+  --gray: #293036;
   --primary: #0d7680;
-  --second: #101010;
+  --second: #101214;
   /*--hover-color: #323232;*/
-  --hover-color: #323232;
+  --hover-color: var(--gray);
   --bar-color: rgba(255, 255, 255, 0.1);
 
   --border-in-light: 1px solid rgba(255, 255, 255, 0.192);
