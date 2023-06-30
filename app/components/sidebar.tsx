@@ -124,8 +124,12 @@ export function SideBar(props: { className?: string }) {
           <NextImage
             src={Logo}
             alt="gpt.tt"
-            width={150}
-            height={54}
+            style={{
+              width: '100px',
+              height: 'auto', 
+              marginLeft: '0px',
+              marginTop: '0px',
+            }}
           />
         </div>
 
