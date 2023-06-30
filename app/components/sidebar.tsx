@@ -12,7 +12,7 @@ import MaskIcon from "../icons/mask.svg";
 import PluginIcon from "../icons/plugin.svg";
 
 import Logo from "../icons/logo.png";
-import NextImage from "next/image";
+
 
 import Locale from "../locales";
 
@@ -121,11 +121,15 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         /*<div className={styles["sidebar-title"]} data-tauri-drag-region>gpt.tt</div>*/
         <div>
-          <NextImage
-            src={logo.src}
+          <img
+            src={Logo}
             alt="gpt.tt"
-            width={150}
-            height={54}
+            style={{
+              width: '150px', // 设置图片宽度
+              height: 'auto', // 设置图片高度自适应
+              marginLeft: '20px', // 设置图片左边距
+              marginTop: '10px', // 设置图片上边距
+            }}
           />
         </div>
 
