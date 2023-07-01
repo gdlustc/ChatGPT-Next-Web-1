@@ -7,7 +7,7 @@
   .chat-input-action {
     display: inline-flex;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 14px;
     background-color: var(--white);
     color: var(--black);
     border: var(--border-in-light);
@@ -462,7 +462,7 @@
 .chat-input-send {
   background-color: var(--primary);
   color: white;
-
+  
   position: absolute;
   right: 30px;
   bottom: 32px;
