@@ -352,7 +352,7 @@ function ExportAvatar(props: { avatar: string }) {
         height={30}
         alt="bot"
         className="user-avatar"
-        loading="lazy"
+        
       />
     );
   }
@@ -436,7 +436,7 @@ export function ImagePreviewer(props: {
               alt="logo"
               width={50}
               height={50}
-              loading="lazy"
+              
             />
           </div>
 
@@ -447,7 +447,7 @@ export function ImagePreviewer(props: {
               <NextImage
                 src={Logo.src}
                 alt="gpt.tt"
-                loading="lazy"
+               
                 
                 style={{
                   width: '100px',
