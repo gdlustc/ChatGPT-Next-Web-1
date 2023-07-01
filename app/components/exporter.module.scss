@@ -10,7 +10,7 @@
 }
 
 .steps {
-  background-color: var(--gray);
+  background-color: var(--white);
   border-radius: 10px;
   overflow: hidden;
   padding: 5px;
@@ -105,7 +105,7 @@
     border-radius: 10px;
     padding: 20px;
     box-shadow: var(--card-shadow) inset;
-    background-color: var(--gray);
+    background-color: var(--white);
 
     .chat-info {
       background-color: var(--second);
@@ -198,7 +198,7 @@
 
       &-assistant {
         .body {
-          background-color: var(--white);
+          background-color: var(--gray);
         }
       }
 
