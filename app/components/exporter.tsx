@@ -18,7 +18,7 @@ import { Avatar } from "./emoji";
 import dynamic from "next/dynamic";
 import NextImage from "next/image";
 
-import Logo from "../icons/logo.png";
+import Logo from "../icons/logo.svg";
 
 import { toBlob, toJpeg, toPng } from "html-to-image";
 import { DEFAULT_MASK_AVATAR } from "../store/mask";
