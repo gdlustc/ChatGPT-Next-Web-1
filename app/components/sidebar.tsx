@@ -120,18 +120,8 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         {/*<div className={styles["sidebar-title"]} data-tauri-drag-region>gpt.tt</div>*/}
-        <div>
-          <NextImage
-            src={Logo}
-            alt="gpt.tt"
-            style={{
-              width: '100px',
-              height: '34px', 
-              marginLeft: '0px',
-              marginTop: '0px',
-            }}
-          />
-        </div>
+        
+        <div className={styles["gpt-logo"] + " no-dark"}><Logo /></div>
 
         {/*<div className={styles["sidebar-logo"] + " no-dark"}><ChatGptIcon /></div>*/}
       </div>
