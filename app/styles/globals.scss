@@ -11,14 +11,14 @@
   /*--primary: #00AA99;*/
   /*--second: #f0f0f0;*/
   /*--hover-color: #f3f3f3;*/
-  --white: #fff1dd;
+  --white: #fff1e5;
   --black: #000000;
-  --gray: #fff7ee;
-  --primary: #108080;
-  --second: #eeddcc;
+  --gray: #fff7ef;
+  --primary: #0d7680;
+  --second: #f2dfce;
 
-  --third: #991133;
-
+  --third: #990f3d;
+  --fourth: #66605c;
   
   --hover-color: var(--gray);
   --bar-color: rgba(0, 0, 0, 0.1);
@@ -28,10 +28,10 @@
   
   /* shadow */
   --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);
-  --card-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.05);
+  --card-shadow: 0px 2px 2px 0px rgb(0, 0, 0, 0.05);
 
   /* stroke */
-  --border-in-light: 1px solid rgb(222, 222, 222);
+  --border-in-light: 1px solid rgb(222, 222, 222, 0.1);
 }
 
 @mixin dark {
@@ -47,7 +47,7 @@
   --hover-color: var(--gray);
   --bar-color: rgba(255, 255, 255, 0.1);
 
-  --border-in-light: 1px solid rgba(255, 255, 255, 0.192);
+  --border-in-light: 1px solid rgba(255, 255, 255, 0.1);
 
   --theme-color: var(--gray);
 
