@@ -448,6 +448,7 @@ export function ImagePreviewer(props: {
                 src={Logo}
                 alt="gpt.tt"
                 loading="lazy"
+                layout="fill"
                 style={{
                   width: '100px',
                   height: 'auto', 
