@@ -18,7 +18,7 @@ import { Avatar } from "./emoji";
 import dynamic from "next/dynamic";
 import NextImage from "next/image";
 
-import GPTLogo from "../icons/logo.png";
+import Logo from "../icons/logo.png";
 
 import { toBlob, toJpeg, toPng } from "html-to-image";
 import { DEFAULT_MASK_AVATAR } from "../store/mask";
@@ -352,6 +352,7 @@ function ExportAvatar(props: { avatar: string }) {
         height={30}
         alt="bot"
         className="user-avatar"
+        loading="lazy"
       />
     );
   }
@@ -435,6 +436,7 @@ export function ImagePreviewer(props: {
               alt="logo"
               width={50}
               height={50}
+              loading="lazy"
             />
           </div>
 
@@ -443,8 +445,9 @@ export function ImagePreviewer(props: {
             
             <div>
               <NextImage
-                src={GPTLogo}
+                src={Logo}
                 alt="gpt.tt"
+                loading="lazy"
                 style={{
                   width: '100px',
                   height: 'auto', 
