@@ -5,6 +5,8 @@ import { List, ListItem, Modal, Select, showToast } from "./ui-lib";
 import { IconButton } from "./button";
 import { copyToClipboard, downloadAs, useMobileScreen } from "../utils";
 
+import styles from "./home.module.scss";
+
 import CopyIcon from "../icons/copy.svg";
 import LoadingIcon from "../icons/three-dots.svg";
 import ChatGptIcon from "../icons/chatgpt.png";
@@ -443,20 +445,7 @@ export function ImagePreviewer(props: {
           <div>
             {/*<div className={styles["main-title"]}>gpt.tt</div>*/}
             
-            <div>
-              <NextImage
-                src={Logo}
-                alt="gpt.tt"
-               
-                
-                style={{
-                  width: '100px',
-                  height: 'auto', 
-                  marginLeft: '0px',
-                  marginTop: '0px',
-                }}
-              />
-            </div>
+            <div className={styles["gpt-logo"] + " no-dark"}><Logo /></div>
            
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
