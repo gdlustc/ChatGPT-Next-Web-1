@@ -11,7 +11,7 @@ import CloseIcon from "../icons/close.svg";
 import MaskIcon from "../icons/mask.svg";
 import PluginIcon from "../icons/plugin.svg";
 
-import Logo from "../icons/logo.png";
+import Logo from "../icons/logo.svg";
 import NextImage from "next/image";
 
 import Locale from "../locales";
