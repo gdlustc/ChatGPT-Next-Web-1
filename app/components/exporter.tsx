@@ -445,7 +445,7 @@ export function ImagePreviewer(props: {
             
             <div>
               <NextImage
-                src={Logo.src}
+                src={Logo}
                 alt="gpt.tt"
                
                 
