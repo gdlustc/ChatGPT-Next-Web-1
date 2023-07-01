@@ -312,6 +312,9 @@
   border-radius: 10px;
   /*background-color: rgba(0, 0, 0, 0.05);*/
   background-color: var(--gray);
+  
+  color: var(--black);
+  
   padding: 10px;
   font-size: 14px;
   user-select: text;
@@ -462,7 +465,7 @@
 .chat-input-send {
   background-color: var(--primary);
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   position: absolute;
   right: 30px;
   bottom: 32px;
