@@ -126,7 +126,7 @@ export function SideBar(props: { className?: string }) {
             alt="gpt.tt"
             style={{
               width: '100px',
-              height: 'auto', 
+              height: '34px', 
               marginLeft: '0px',
               marginTop: '0px',
             }}
