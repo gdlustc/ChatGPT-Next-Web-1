@@ -105,7 +105,7 @@
     border-radius: 10px;
     padding: 20px;
     box-shadow: var(--card-shadow) inset;
-    background-color: var(--gray);
+    background-color: var(--white);
 
     .chat-info {
       background-color: var(--second);
@@ -136,6 +136,11 @@
         opacity: 0.1;
       }
 
+      .gpt-logo {
+        marginLeft: '0px';
+        marginTop: '0px';
+      }
+      
       .main-title {
         font-size: 30px;
         font-weight: bolder;
@@ -198,7 +203,7 @@
 
       &-assistant {
         .body {
-          background-color: var(--white);
+          background-color: var(--gray);
         }
       }
 

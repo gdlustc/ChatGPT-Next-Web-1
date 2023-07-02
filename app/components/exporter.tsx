@@ -18,6 +18,8 @@ import { Avatar } from "./emoji";
 import dynamic from "next/dynamic";
 import NextImage from "next/image";
 
+import Logo from "../icons/logo.svg";
+
 import { toBlob, toJpeg, toPng } from "html-to-image";
 import { DEFAULT_MASK_AVATAR } from "../store/mask";
 import { api } from "../client/api";
@@ -350,6 +352,7 @@ function ExportAvatar(props: { avatar: string }) {
         height={30}
         alt="bot"
         className="user-avatar"
+        
       />
     );
   }
@@ -433,11 +436,14 @@ export function ImagePreviewer(props: {
               alt="logo"
               width={50}
               height={50}
+              
             />
           </div>
 
           <div>
-            <div className={styles["main-title"]}>gpt.tt</div>
+            {/*<div className={styles["main-title"]}>gpt.tt</div>*/}
+            
+            <div className={styles["gpt-logo"] + " no-dark"}><Logo /></div>
            
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
